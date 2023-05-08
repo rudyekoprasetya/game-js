@@ -1,0 +1,64 @@
+body {
+	text-align: center;
+}
+
+#main {
+	width: 400px;
+	height: 500px;
+	background: url("img/bg.png");
+	margin: 0 auto;
+}
+
+#area {
+	width: 400px;
+	height: 500px;
+	position: absolute;
+	overflow: hidden;
+	z-index: 100;
+}
+
+/*animasi */
+@keyframes planetJet {
+	from {
+		background: url("img/player1.png");
+		background-size: 100%;
+		background-repeat: no-repeat;
+	} to {
+		background: url("img/player2.png");
+		background-size: 100%;
+		background-repeat: no-repeat;
+	}
+}
+
+#plane {
+	width: 58px;
+	height: 100px;
+	background: url("img/player1.png");
+	background-size: 100%;
+	background-repeat: no-repeat;
+	position: absolute;
+	margin-top: 400px;
+	/*	panggil animasi*/
+	animation: planetJet 0.3s infinite;
+}
+
+@keyframes meteorAnim {
+	from {
+		background: url("img/meteor1.png");
+		background-size: 100%;
+		background-repeat: no-repeat;
+	} to {
+		background: url("img/meteor2.png");
+		background-size: 100%;
+		background-repeat: no-repeat;
+	}
+}
+
+#meteor {
+	width: 58px;
+	height: 86px;
+	background: url("img/meteor1.png");
+	background-size: 100%;
+	background-repeat: no-repeat;
+	animation: meteorAnim 0.6s infinite;
+}
