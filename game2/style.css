@@ -1,6 +1,8 @@
 body {
 	width: 100%;
 	background-color: black;
+	text-align: center;
+	margin-left: 15rem;
 }
 
 .utama {
@@ -69,6 +71,7 @@ body {
 	text-align: center;
 	color: white;
 	font-weight: bolder;
+	z-index: 150;
 }
 
 #key1 {
