@@ -1,5 +1,6 @@
 //untuk memasukan nama player
 var user = prompt('Masukan Nama Pemain');
+confirm('Apakah Anda Siap?');
 document.getElementById('playername').innerHTML = user;
 
 // variable objek yang digunakan

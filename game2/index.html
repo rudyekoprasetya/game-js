@@ -16,8 +16,10 @@
 			<h2>Player Name <span id="playername">-</span> </h2>	
 			<h2>Player Score <span id="playerscore">0</span> </h2>
 			<p>
-				<button class="tombol">PAUSE</button>
-				<button class="tombol">RESET</button>
+				<!-- menghentikan game sementara -->
+				<button class="tombol" onclick="alert('KLIK OK UNTUK RESUME')">PAUSE</button>
+				<!-- mengulangi atau refresh laman -->
+				<button class="tombol" onclick="window.location.href='index.html'">RESET</button>
 
 			</p>
 		</div>
@@ -29,13 +31,13 @@
 				<div id="virus" style="margin-top: 600px;"></div>
 				<!-- untuk virus -->
 			</div>
-
+			
 			<!-- untuk vaksin virus  -->
 			<div id="key1" class="danger_area">A</div>
 			<div id="key2" class="danger_area">S</div>
 			<div id="key3" class="danger_area">D</div>
 			<div id="key4" class="danger_area">F</div>
-			<!-- untuk vaksin virus  -->
+			<!-- untuk vaksin virus  -->		
 
 		</div>
 	</div>
